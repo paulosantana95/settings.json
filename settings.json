@@ -1,0 +1,261 @@
+{
+  // Configura tamanho e família da fonte
+  "editor.accessibilityPageSize": 14,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Pro",
+  "editor.fontSize": 17,
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+  "editor.fontFamily": "JetBrains Mono",
+  // "editor.fontFamily": "Fira Code Retina",
+  // "editor.letterSpacing": -0.2,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true, // Habilita ligadura de fontes mas buga o bracketPair
+  "editor.suggestSelection": "first",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "cSpell.language": "en,pt",
+  // Live Share
+  "liveshare.featureSet": "insiders",
+
+  // Material Theme
+
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+
+  "cSpell.userWords": [
+    "astrojs",
+    "bootcamp",
+    "bouncedelay",
+    "Bun",
+    "chakra",
+    "checkin",
+    "checkins",
+    "clsx",
+    "Codegen",
+    "consts",
+    "datadog",
+    "Datetime",
+    "dayjs",
+    "Dotenv",
+    "esbuild",
+    "esnext",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "ffprobe",
+    "fontawesome",
+    "fortawesome",
+    "Hono",
+    "hookform",
+    "IUGU",
+    "jamjuree",
+    "jupiter",
+    "liveblocks",
+    "LIVEBLOCKS",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "Nunito",
+    "Onboarded",
+    "openai",
+    "openia",
+    "ormconfig",
+    "pallas",
+    "postgres",
+    "postgresql",
+    "prefetch",
+    "reactflow",
+    "reponame",
+    "roboto",
+    "rocketseat",
+    "rotion",
+    "rsxp",
+    "Sandpack",
+    "shiki",
+    "skylab",
+    "sqlite",
+    "supergraph",
+    "svgr",
+    "sympla",
+    "textblock",
+    "tiptap",
+    "trpc",
+    "TRPC",
+    "tsup",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert",
+    "Usuario",
+    "WEBPUSH"
+  ],
+
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  "workbench.startupEditor": "newUntitledFile",
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+
+  "editor.rulers": [80, 120],
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Auto imports Suggestions
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.minimap.enabled": false,
+  "workbench.editorAssociations": {
+    "*.fig": "default"
+  },
+  "eslint.options": {},
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.wordWrap": "on",
+  "settingsSync.ignoredExtensions": [
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "softwaredotcom.swdc-vscode",
+    "christian-kohler.npm-intellisense",
+    "formulahendry.code-runner",
+    "vue.volar",
+    "bmewburn.vscode-intelephense-client",
+    "ms-azuretools.vscode-docker"
+  ],
+  "terminal.integrated.fontFamily": "Fira Code Retina",
+  "terminal.integrated.fontWeightBold": "900",
+  "editor.tabSize": 2,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.accessibilitySupport": "off",
+
+  // Error Lens config
+  "errorLens.delay": 3000,
+  "errorLens.fontWeight": "400",
+  "errorLens.light": {},
+  "symbols.hidesExplorerArrows": false,
+  "editor.inlineSuggest.enabled": true,
+
+  // Prettier config
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.bracketSameLine": true,
+  // "prettier.disableLanguages": ["prisma"],
+
+  // others formatters
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[typescriptreact]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cssModules.camelCase": false,
+  "files.associations": {
+    "*.css": "css"
+  },
+  "editor.formatOnSave": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.env.linux": {},
+  "importCost.fontStyle": "italic",
+  "importCost.bundleSizeColoring": "compressed",
+  "console-ninja.featureSet": "Community",
+  "workbench.editor.empty.hint": "hidden"
+}
